@@ -1,0 +1,51 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* MAIN APP WRAPPER */
+.shivam {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f7ff; /* Light modern background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+/* Smooth Section Spacing */
+.shivam > * {
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px 20px;
+}
+
+/* Desktop Beautiful Layout */
+@media (min-width: 900px) {
+  .shivam > * {
+    padding: 60px 20px;
+  }
+}
+
+/* Scrollbar Modern Style */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e4ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7c8cff;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5d6dff;
+}
